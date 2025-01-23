@@ -1,0 +1,9 @@
+
+openai
+python-dotenv
+embedchain
+streamlit
+scrapegraphai
+playwright
+mlflow
+pandas

@@ -1,0 +1,283 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-en-experiencia-y-obra;1a--logado-en-la-pagina",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "1a- Logado en la pagina",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Visito la web de Experiencia en obra",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2510000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Realizamos login en la aplicacion",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Nos logamos correctamente",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HST_Login",
+            "line": 1
+          },
+          {
+            "name": "@Test-Login",
+            "line": 4
+          },
+          {
+            "name": "@RCI",
+            "line": 4
+          },
+          {
+            "name": "@PRO",
+            "line": 4
+          },
+          {
+            "name": "@PRE",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-experiencia-y-obra;1b--generar-excel",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "1b- Generar excel",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Visito la web de Experiencia en obra",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2602000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Realizamos login en la aplicacion",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Nos logamos correctamente",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Selecciono el pais España",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Generar nueva lista auxiliar",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19574000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Exportar Excel",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28502000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HST_Login",
+            "line": 1
+          },
+          {
+            "name": "@Test-Excel",
+            "line": 10
+          },
+          {
+            "name": "@RCI",
+            "line": 10
+          },
+          {
+            "name": "@PRO",
+            "line": 10
+          },
+          {
+            "name": "@PRE",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-experiencia-y-obra;1c--cerrar-sesion",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "1c- Cerrar sesion",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "Visito la web de Experiencia en obra",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Realizamos login en la aplicacion",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Nos logamos correctamente",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Cerrar sesion",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HST_Login",
+            "line": 1
+          },
+          {
+            "name": "@Test-Logout",
+            "line": 19
+          },
+          {
+            "name": "@RCI",
+            "line": 19
+          },
+          {
+            "name": "@PRO",
+            "line": 19
+          },
+          {
+            "name": "@PRE",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-en-experiencia-y-obra",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login en Experiencia y Obra",
+    "tags": [
+      {
+        "name": "@HST_Login",
+        "line": 1
+      }
+    ],
+    "uri": "cypress/e2e/01_Login.feature"
+  }
+]
